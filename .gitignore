@@ -500,3 +500,8 @@ ASALocalRun/
 healthchecksdb
 
 # End of https://www.gitignore.io/api/c,c++,macos,windows,sublimetext,visualstudio
+
+# Object files and libraries
+*.o 
+*.a
+Main

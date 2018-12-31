@@ -195,8 +195,8 @@ void Matrix::makeInternalTransposedMatrix() {
 	}
 }
 
-
-std::ostream& operator<<(std::ostream& stream, const GenericMatrix& other) {
+template<class MatrixType>
+std::ostream& operator<<(std::ostream& stream, const GenericMatrix<MatrixType>& other) {
 	stream << '[';
 	int num_rows = other.getRows();
 	int num_cols = other.getCols();
